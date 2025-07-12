@@ -5,7 +5,7 @@ namespace DevCard_MVC.ViewComponents
 {
     public class LatestArticlesViewComponent : ViewComponent
     {
-        public IViewComponentResult Invok()
+        public IViewComponentResult Invoke()
         {
             var articles = new List<Article> 
             { 
